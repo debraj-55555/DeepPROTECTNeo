@@ -93,7 +93,7 @@ This produces:
 
 ## Provided Weights
 
-Pre-trained 5-fold cross-validation weights are available under `weights/`. Each fold’s `best_model.pth` can be loaded with:
+Pre-trained 5-fold cross-validation weights are available via ![this link](https://drive.google.com/drive/folders/1Bgc9CdsYmt0TWE2KM5vAYEKpPq7tvK-G?usp=sharing). Download them and put them inside ```weights/``` folder. And the test command can be run using the following argument 
 
 ```bash
 --model_path weights/fold_{i}_model.pth

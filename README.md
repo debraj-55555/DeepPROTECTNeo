@@ -91,9 +91,9 @@ This produces:
 
 ---
 
-## Custom Testing with Pre-trained Weights
+## Custom Testing with Pre-trained
 
-Pre-trained 5-fold cross-validation weights are available via [this link](https://drive.google.com/drive/folders/1Bgc9CdsYmt0TWE2KM5vAYEKpPq7tvK-G?usp=sharing). Download them and put them inside ```weights/``` folder. And the test command can be run using the following argument 
+Pre-trained 5-fold cross-validation weights are available via ![this link](https://drive.google.com/drive/folders/1Bgc9CdsYmt0TWE2KM5vAYEKpPq7tvK-G?usp=sharing). Download them and put them inside ```weights/``` folder. And the test command can be run using the following argument 
 
 ```bash
 --model_path weights/fold_{i}_model.pth
@@ -101,19 +101,22 @@ Pre-trained 5-fold cross-validation weights are available via [this link](https:
 
 ---
 
-<!-- ## Citation
+## Citation
 
 Please cite our preprint:
 
 ```bibtex
-@article{DeepPROTECTNeo_2025,
-  title = {DeepPROTECTNeo: Explainable TCR–Epitope Binding Prediction with Rotary Embeddings and Cross-Attention},
-  author = {Your Author List},
-  journal = {bioRxiv},
-  year = {2025},
-  doi = {10.1101/xxxxxxx},
-  url = {https://doi.org/10.1101/xxxxxxx}
+@article {Das2025.01.04.631301,
+	author = {Das, Debraj and Bhaduri, Soumyadeep and Pramanick, Avik and Mitra, Pralay},
+	title = {DeepPROTECTNeo: A Deep learning-based Personalized and RV-guided Optimization tool for TCR Epitope interaction using Context-aware Transformers},
+	elocation-id = {2025.01.04.631301},
+	year = {2025},
+	doi = {10.1101/2025.01.04.631301},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/01/05/2025.01.04.631301},
+	eprint = {https://www.biorxiv.org/content/early/2025/01/05/2025.01.04.631301.full.pdf},
+	journal = {bioRxiv}
 }
-``` -->
+```
 
 **Zenodo**: https://doi.org/10.5281/zenodo.xxxxxxx

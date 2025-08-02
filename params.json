@@ -1,0 +1,20 @@
+{
+  "modelseed": 42,
+  "batch_size": 256,
+  "learning_rate": 0.0005,
+  "smoothing": 0.1,
+  "d_model": 240,
+  "n_heads": 3,
+  "skip_dim": 30,
+  "phys_dim": 16,
+  "cross_attn_heads": 6,
+  "sa_n_heads": 6,
+  "use_ablation": false,
+  "use_cross_attn": true,
+  "learned_pos": true,
+  "cnn_dim": 60,
+  "cnn_blocks": 32,
+  "cnn_ch": 64,
+  "cnn_ks": 5,
+  "cnn_attn_heads": 6
+}

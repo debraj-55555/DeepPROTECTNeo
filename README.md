@@ -1,6 +1,6 @@
 # DeepPROTECTNeo: A Deep learning-based Personalized and RV-guided Optimization tool for TCR Epitope interaction using Context-aware Transformers
 
-![BioRxiv](https://doi.org/10.1101/2025.01.04.631301) ![Zenodo](https://dummy.org/zenodo)
+[BioRxiv](https://doi.org/10.1101/2025.01.04.631301) [Zenodo](https://dummy.org/zenodo)
 
 A high-performance, explainable deep learning model for Neo-epitope prioritizationm leveraging the prediction of TCR–epitope binding, integrating rotary embeddings, explicit cross-attention, and integrated gradients.
 
@@ -27,7 +27,7 @@ conda env create -f env.yml
 conda activate deepprotectneo
 ```
 
-Install anarci (see ![ANARCI installation guidelines](https://github.com/oxpig/ANARCI?tab=readme-ov-file#installation)) in the same environment for code execution.
+Install anarci (see [ANARCI installation guidelines](https://github.com/oxpig/ANARCI?tab=readme-ov-file#installation)) in the same environment for code execution.
 
 ---
 
@@ -62,7 +62,7 @@ python main.py   --mode train   --train_file example_train.csv   --val_file exam
 
 After training, your best and early-stop weights are saved in `run/{save_dir}/best_model.pth` and `early_stop_model.pth`.
 
-To evaluate on a **test** CSV (same format as above):
+To evaluate on a test CSV (same format as above):
 ```bash
 python main.py   --mode test   --test_file data/test_dataset.csv   --model_path run/exp1/best_model.pth   --predictions_file run/exp1/predictions.csv   --metric_file run/exp1/metrics.json   --batch_size 128   --device cuda:0
 ```
@@ -91,9 +91,9 @@ This produces:
 
 ---
 
-## Provided Weights
+## Custom Testing with Pre-trained Weights
 
-Pre-trained 5-fold cross-validation weights are available via ![this link](https://drive.google.com/drive/folders/1Bgc9CdsYmt0TWE2KM5vAYEKpPq7tvK-G?usp=sharing). Download them and put them inside ```weights/``` folder. And the test command can be run using the following argument 
+Pre-trained 5-fold cross-validation weights are available via [this link](https://drive.google.com/drive/folders/1Bgc9CdsYmt0TWE2KM5vAYEKpPq7tvK-G?usp=sharing). Download them and put them inside ```weights/``` folder. And the test command can be run using the following argument 
 
 ```bash
 --model_path weights/fold_{i}_model.pth

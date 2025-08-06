@@ -1,6 +1,6 @@
 # DeepPROTECTNeo: A Deep learning-based Personalized and RV-guided Optimization tool for TCR Epitope interaction using Context-aware Transformers
 
-[BioRxiv](https://doi.org/10.1101/2025.01.04.631301) [Zenodo](https://zenodo.org/records/16744711)
+[BioRxiv](https://doi.org/10.1101/2025.01.04.631301) [Zenodo](https://doi.org/10.5281/zenodo.16751524)
 
 A high-performance, explainable deep learning model for Neo-epitope prioritizationm leveraging the prediction of TCR–epitope binding, integrating rotary embeddings, explicit cross-attention, and integrated gradients.
 

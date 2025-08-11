@@ -51,8 +51,10 @@ CASSLGVATGELF,EAAGIGILTV,1
 
 **Example**:
 ```bash
-python main.py   --mode train   --train_file example_train.csv   --val_file example_val.csv   --batch_size 128   --epochs 30   --device cuda:0   --early_stopping   --run_dir run   --save_dir exp1
+python main.py   --mode train   --train_file example_train.csv   --val_file example_val.csv   --batch_size 128   --epochs 30   --device cuda:0   --early_stopping  True  --run_dir run   --save_dir exp1
 ```
+- mode can be `train/test`
+- early_stopping can be `True/1` or `False/0` based on user's choice
 
 ### Validation Split Logic
 - If `--val_file` is provided, the script uses that CSV directly.  

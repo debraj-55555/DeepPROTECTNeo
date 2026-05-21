@@ -101,7 +101,7 @@ Pre-trained 5-fold cross-validation weights are available via [this link](https:
 --model_path weights/fold_{i}_model.pth
 ```
 
----
+<!-- ---
 
 ## Citation
 
@@ -119,6 +119,6 @@ Please cite our preprint:
 	eprint = {https://www.biorxiv.org/content/early/2025/01/05/2025.01.04.631301.full.pdf},
 	journal = {bioRxiv}
 }
-```
+``` -->
 
 
